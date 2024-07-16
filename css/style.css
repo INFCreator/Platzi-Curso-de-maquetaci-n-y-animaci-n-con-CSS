@@ -15,3 +15,18 @@ html{
 .footer--blue{
     background-color:#016fb9 ;
 }
+
+.navigation, .navigation__options {
+    display: flex;
+    align-items: center;
+   
+}
+
+.navigation {
+    width: 100%;
+}
+
+.navigation__options li{
+    font-size: 4rem;
+    margin-left: 2rem;
+}
