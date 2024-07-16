@@ -27,6 +27,19 @@ html{
 }
 
 .navigation__options li{
-    font-size: 4rem;
+    font-size: 1.6rem;
     margin-left: 2rem;
+}
+
+.main__title p,.aside__text{
+    font-size: 3.6rem;
+}
+
+.main__title h1{
+    font-size: 4.8rem;
+    font-weight: bold;
+}
+
+.main__paragraph{
+    font-size: 1.6rem;
 }
