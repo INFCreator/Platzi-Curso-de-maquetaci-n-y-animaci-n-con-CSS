@@ -1,0 +1,2 @@
+Hipotesis 1: quizás hay un flex que falta o sobra
+Resolucion:
