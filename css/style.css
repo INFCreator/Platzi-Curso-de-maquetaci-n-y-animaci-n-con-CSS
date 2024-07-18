@@ -8,15 +8,32 @@ html{
     font-size: 62.5%;
 }
 
-.container--yellow .footer--yellow{
+.layout__container{
+    width: 55%;
+
+}
+
+.aside{
+    width: 45%;
+}
+
+.aside, .layout__container{
+    min-height: 100px;
+
+}
+.aside__text, .aside__image{
+    width: 10%;
+}
+
+.aside__container--yellow{
+    width: 50%;
+    height: 100px;
+}
+.aside__container--yellow, .footer--yellow{
     background-color:#ffd602 ;
 }
 
-.footer--blue{
-    background-color:#016fb9 ;
-}
-
-.navigation, .navigation__options {
+body, .navigation, .navigation__options {
     display: flex;
     align-items: center;
    
@@ -27,6 +44,32 @@ html{
 }
 
 .navigation__options li{
-    font-size: 4rem;
+    font-size: 1.6rem;
     margin-left: 2rem;
+}
+
+.main__title p,.aside__text{
+    font-size: 3.6rem;
+}
+
+.main__title h1{
+    font-size: 4.8rem;
+    font-weight: bold;
+}
+
+.main__paragraph{
+    font-size: 1.6rem;
+}
+
+.footer{
+    
+    height: 50%;
+}
+
+.footer__item{
+    width: 130px;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    background-color:#016fb9
 }
