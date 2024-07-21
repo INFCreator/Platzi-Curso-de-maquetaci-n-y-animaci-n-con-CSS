@@ -22,7 +22,10 @@ body, .navigation, .navigation__options {
     display: flex;
 }
 
-.navigation, .navigation__options{
+.navigation{
+    height: 10%;
+}
+.navigation__options{
     align-items: center;
 }
 
@@ -32,7 +35,7 @@ body, .navigation, .navigation__options {
 }
 
 .main{
-    height: 700px;
+    height: 65%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,8 +57,7 @@ body, .navigation, .navigation__options {
 }
 
 .footer{
-    
-    height: 430px;
+    height: 25%;
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
